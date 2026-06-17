@@ -11,6 +11,6 @@ public class reverse_num {
 
 
         }
-     System.err.println(res);
+     System.out.println(res);
     }
 }
