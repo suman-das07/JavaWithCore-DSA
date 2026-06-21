@@ -42,10 +42,15 @@ public class fibonacci {
 
         while (i < num) {
             System.out.print(first);
-            int temp = second;
-            second=second+first;
-            first=temp;
+            // int temp = second;
+            // second=second+first;
+            // first=temp;
+            int temp=first+second;
+            first=second;
+            second=temp;
             i++;
+           
+           
 
         }
     }

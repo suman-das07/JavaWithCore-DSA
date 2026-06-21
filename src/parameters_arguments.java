@@ -7,8 +7,8 @@ public class parameters_arguments {
     }
 
     static int sum3(int a, int b){
-        int sum= a+b;
-        return sum;
+        // int sum= a+b;
+        return a+b;
 
     }
 }
