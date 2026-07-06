@@ -27,7 +27,7 @@ public class armstrong_methods {
             sum+=(dig*dig*dig);
             n/=10;
         }
-        
+
         return sum==og;
     }
 }
